@@ -1,8 +1,8 @@
 import React from 'react'
 
-const H1 = () => {
+const H1 = ({text}) => {
   return (
-    <div>H1</div>
+    <h1 className="h1">{text}</h1>
   )
 }
 
